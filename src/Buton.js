@@ -11,8 +11,7 @@ const antalya=[{a:"30.0", b:"36.4", c:"20.2", d:"13.4" }, {a:"47.1", b:"33.0", c
 const diyarbakır=[{a:'15.0', b:'25.00', c:'5.0', d:'55.0'},{a:"37.00", b:"13.0", c:"10.0", d:"40.0"}, {a:'3.6', b:'30.24', c:'12.00', d:'50.16'},{a:"30", b:"2.0", c:"3.0", d:"65.0" }];
 const rz=[{a:'15.5', b:'4.0', c:'74.5', d:'6.0'},{a:'50.16', b:'30.24', c:'12.00', d:'3.6'}, {a:"47.1", b:"33.0", c:"11.4", d:"8.5" },{a:"20.8", b:"60.1", c:"13.2", d:"3.4" }];
 
-var i;
-var asonuc = 0, bsonuc = 0, csonuc = 0, dsonuc = 0;
+
 
 class Buton extends Component {
 
@@ -30,7 +29,8 @@ class Buton extends Component {
          e.preventDefault();
         console.log('The link was clicked.'); */
 
-
+         var i;
+         var asonuc = 0, bsonuc = 0, csonuc = 0, dsonuc = 0;
 
             for (i = 0; i < istanbul.length; i++) {
 
@@ -62,7 +62,8 @@ class Buton extends Component {
         + "<tr> <td> <div id='anka'></div> </td><td><div id='ankb'></div> </td> <td><div id='ankc'></div></td><td><div id='ankd'></div></td></tr></table>"
     document.getElementById("ank2").innerHTML = ank2;
 
-
+          var i;
+          var asonuc = 0, bsonuc = 0, csonuc = 0, dsonuc = 0;
 
             for (i = 0; i < anka.length; i++) {
 
@@ -84,7 +85,8 @@ class Buton extends Component {
             + "<tr> <td> <div id='izma'></div> </td><td><div id='izmb'></div> </td> <td><div id='izmc'></div></td><td><div id='izmd'></div></td></tr></table>"
         document.getElementById("izm2").innerHTML = izm2;
 
-
+            var i;
+            var asonuc = 0, bsonuc = 0, csonuc = 0, dsonuc = 0;
 
             for (i = 0; i < izmr.length; i++) {
 
@@ -106,6 +108,8 @@ class Buton extends Component {
         + "<tr> <td> <div id='bursa'></div> </td><td><div id='bursb'></div> </td> <td><div id='bursc'></div></td><td><div id='bursd'></div></td></tr></table>"
     document.getElementById("burs2").innerHTML = burs2;
 
+            var i;
+            var asonuc = 0, bsonuc = 0, csonuc = 0, dsonuc = 0;
 
             for (i = 0; i < bursa.length; i++) {
 
@@ -126,6 +130,9 @@ class Buton extends Component {
             const esk2 = esk.innerHTML + "<table border='2' id='istsonuc' ><thead align='center'><tr><td colspan='4' id='iladi'>  </td></tr></thead><tr><td>A PARTİSİ</td><td>B PARTİSİ</td><td>C PARTİSİ</td><td>D PARTİSİ</td></tr>"
                 + "<tr> <td> <div id='eska'></div> </td><td><div id='eskb'></div> </td> <td><div id='eskc'></div></td><td><div id='eskd'></div></td></tr></table>"
             document.getElementById("esk2").innerHTML = esk2;
+            
+            var i;
+var asonuc = 0, bsonuc = 0, csonuc = 0, dsonuc = 0;
 
     for (i = 0; i < eskisehir.length; i++) {
 
@@ -148,7 +155,8 @@ class Buton extends Component {
             + "<tr> <td> <div id='anta'></div> </td><td><div id='antb'></div> </td> <td><div id='antc'></div></td><td><div id='antd'></div></td></tr></table>"
         document.getElementById("ant2").innerHTML = ant2;
 
-
+                var i;
+                var asonuc = 0, bsonuc = 0, csonuc = 0, dsonuc = 0;
             for (i = 0; i < antalya.length; i++) {
 
                 asonuc += parseInt(antalya[i].a);
@@ -171,7 +179,8 @@ class Buton extends Component {
         + "<tr> <td> <div id='dyra'></div> </td><td><div id='dyrb'></div> </td> <td><div id='dyrc'></div></td><td><div id='dyrd'></div></td></tr></table>"
     document.getElementById("dyr2").innerHTML = dyr2;
 
-
+               var i;
+               var asonuc = 0, bsonuc = 0, csonuc = 0, dsonuc = 0;
 
             for (i = 0; i < diyarbakır.length; i++) {
 
@@ -195,7 +204,8 @@ class Buton extends Component {
                 + "<tr> <td> <div id='rza'></div> </td><td><div id='rzb'></div> </td> <td><div id='rzc'></div></td><td><div id='rzd'></div></td></tr></table>"
             document.getElementById("rz2").innerHTML = rz2;
 
-
+                 var i;
+                 var asonuc = 0, bsonuc = 0, csonuc = 0, dsonuc = 0;
 
             for (i = 0; i < rz.length; i++) {
 
