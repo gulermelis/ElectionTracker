@@ -1,0 +1,35 @@
+.Combobox{
+    margin:0 auto;
+}
+.combobox{
+    margin-top: 10px;
+  margin-left:150px;
+    height: 10px;
+    width: 80%;
+    text-indent: 10px;
+}
+
+
+
+label select
+{
+    margin-left:100px;
+    height:20px;
+
+
+}
+
+.ilce-oylama{
+    margin-left:170px;
+}
+
+
+
+
+#ilce-tablo td{
+    padding-right:10px;
+}
+
+
+
+

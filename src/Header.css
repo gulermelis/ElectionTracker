@@ -1,0 +1,73 @@
+#title{
+    position: relative;
+    text-align:center;
+    margin-top:25px;
+    color:red;
+}
+#genel-title{
+    margin-top:70px;
+}
+
+
+
+
+.tcgenel{
+    margin-left:150px;
+
+    margin-right:300px;
+    width:900px;
+}
+
+
+
+.genelekran{
+    position:relative;
+     width:500px;
+    margin-left:200px;
+    line-height:50px;
+
+}
+
+#partiadlari {
+    background:lavender;
+
+}
+tr{
+
+    text-indent:20px;
+}
+
+.sayimsutunu{
+
+    line-height:30px;
+}
+
+
+#ilce-tablo{
+    margin-left:200px;
+    margin-top:50px;
+    margin-bottom:-45px;
+
+    position:relative;
+    width:500px;
+    margin-left:200px;
+    line-height:35px;
+}
+
+tr{
+
+    text-indent:20px;
+}
+
+.sayimsutunu{
+
+    line-height:30px;
+}
+
+#ilce-title{
+
+    margin-left:50px;
+    margin-top:30px;
+    font-size:20px;
+
+}

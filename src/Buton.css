@@ -1,0 +1,73 @@
+
+ul{
+
+    list-style: none;
+}
+
+li{
+
+}
+
+#il-geneli-sonuc-butonlari{
+   margin-top:200px;
+    margin-left:-20px;
+
+}
+
+#il-title{
+    margin-left:55px;
+    margin-top:-150px;
+}
+
+table{
+    border-collapse:collapse;
+    padding-rigth:5px;
+}
+
+table td{
+    padding-right:10px;
+}
+
+
+table thead {
+    background-color:cornsilk;
+    color:black;
+}
+
+#ilk-ul{
+     display:block;
+    margin-left:150px;
+    line-height: 25px;
+    width:500px;
+    height:550px;
+
+
+}
+
+.il-buton{
+    width:350px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background:chocolate;
+    padding:5px 10px;
+    text-decoration:none;
+    color:#fff;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    box-shadow: 0 1px 2px #000;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+
+#sag-ul{
+
+    float:right;
+    margin-right:140px;
+    margin-top:-567px;
+    line-height: 25px;
+    width:500px;
+    height:550x;
+
+
+}
