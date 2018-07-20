@@ -117,6 +117,13 @@ class Combobox extends Component {
 
     onChangeIlce = (event)  => {
 
+        const box = document.getElementById('box');
+        const box2 = box.innerHTML +"<table border='2' id='ilce-tablo'><thead align='center'><tr><td colSpan='4' id='ilce-adi'></td></tr></thead>"
+          +"<tr><td>A PARTİSİ</td><td>B PARTİSİ</td><td>C PARTİSİ</td><td>D PARTİSİ</td></tr><tr><td><div id='oy1'> </div></td><td><div id='oy2'> </div></td><td><div id='oy3'> </div></td><td><div id='oy4'> - </div></td></tr></table>";
+
+        document.getElementById("box2").innerHTML = box2;
+
+
 
         this.setState({typed: event.target.value});
 
@@ -259,29 +266,9 @@ class Combobox extends Component {
 
                     </tr>
                 </table>
-                <table border='2' id='ilce-tablo'>
-                    <thead align='center'>
-                    <tr>
-                        <td colSpan='4' id='ilce-adi'></td>
-                    </tr>
-                    </thead>
-                    <tr><td>A PARTİSİ</td><td>B PARTİSİ</td><td>C PARTİSİ</td><td>D PARTİSİ</td></tr>
-                    <tr>
-                        <td>
-                            <div id='oy1'> - </div>
-                        </td>
-                        <td>
-                            <div id='oy2'> - </div>
-                        </td>
-                        <td>
-                            <div id='oy3'>  -</div>
-                        </td>
-                        <td>
-                            <div id='oy4'> - </div>
-                        </td>
-                    </tr>
-                </table>
 
+                <div id='box'></div>
+                <div id='box2'></div>
 
             </div>
 
